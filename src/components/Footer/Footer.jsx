@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='text-center bottom-0'>
+    <div className='fixed bottom-0 left-[40%]'>
         <h3>
           All rights reserved by Kraken. © 2023 
         </h3>
