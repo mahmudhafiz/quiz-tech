@@ -7,7 +7,7 @@ function Navbar() {
             <h1 className='w-full text-3xl font-bold text-[#011386]'>Tech Quiz.</h1>
             <ul className='hidden md:flex text-xl'>
                 <li className='p-4'>Home</li>
-                <li className='p-4'>Quizes</li>
+                <li className='p-4'>Quizzes</li>
                 <li className='p-4'>Results</li>
                 <li className='p-4'>About</li>
             </ul>
