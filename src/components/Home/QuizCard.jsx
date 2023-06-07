@@ -1,6 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Quizzes from '../Quizzes/Quizzes';
 
 const QuizCard = ({dataForQuiz}) => {
+    const handleEvent = () => {
+        
+    }
+
     return (
         <div className='bg-white w-[16rem] h-[20rem] rounded-md shadow-xl hover:scale-105 duration-300'>
             <div className='flex flex-col justify-around items-center p-8'>
@@ -13,7 +19,7 @@ const QuizCard = ({dataForQuiz}) => {
                 <p className='text-md text-lime-700 mb-4'>
                     {dataForQuiz?.total} questions to tackle!
                 </p>
-                <button className='bg-[#af2b0d] text-white py-2 mx-auto w-[70%] rounded-md mt-7'>
+                <button onClick={handleEvent} className='bg-[#5e057c] text-white py-2 mx-auto w-[70%] rounded-md mt-9'>
                     Start
                 </button>
             </div>
