@@ -6,6 +6,7 @@ import Quiz from "./Layouts/Quiz";
 import Quizzes from "./components/Quizzes/Quizzes";
 import Results from "./components/Results/Results";
 import Error from "./components/Error/Error";
+import Result from "./Layouts/Result";
 
 function App() {
   const router = createBrowserRouter([
@@ -45,8 +46,14 @@ function App() {
     },
     {
       path: '/results',
-      element: <Results></Results>,
-      errorElement: <Error></Error>
+      element: <Result></Result>,
+      errorElement: <Error></Error>,
+      children: [
+        {
+          path: '/results',
+          element: <Results></Results>
+        }
+      ]
     }
   ]);
 

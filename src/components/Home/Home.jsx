@@ -1,15 +1,20 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizCard from './QuizCard';
 
 function Home() {
   const quizzes = useLoaderData();
 
+  useEffect(() => {
+    document.title = 'Tech Quiz';
+  }, []);
+
   const dataForQuizzes = quizzes?.status ? quizzes?.data:[];
   return (
     <div>
         <div className='max-w-[1250px] w-full flex flex-col justify-between align-middle my-2 p-2 mx-auto text-center mb-2'>
-            <h3 className='text-3xl font-bold max-w-[600px] mx-auto'>
+            <h3 className='text-3xl font-bold max-w-[600px] mx-auto text-fuchsia-700'>
                 Take the quizzes and master the technology which you hate!
             </h3>
             <p className='max-w-[800px] my-10 mx-auto p-3'>

@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Quizzes from '../Quizzes/Quizzes';
+import { useNavigate } from 'react-router-dom';
 
 const QuizCard = ({dataForQuiz}) => {
+    const navigate = useNavigate();
+
     const handleEvent = () => {
-        
+        navigate('/quizzes', { state: dataForQuiz });      
     }
 
     return (
