@@ -9,16 +9,16 @@ const Results = () => {
   let text;
 
   if (score >= 80) {
-    text = 'a master';
+    text = 'and a master';
   }
   else if (score >= 60) {
-    text = 'almost a master';
+    text = 'and almost a master';
   }
-  else if (score >= 40) {
-    text = 'soon to be a master';
+  else if (score >= 35) {
+    text = 'but soon to be a master';
   }
   else {
-    text = 'a noob';
+    text = 'but a noob';
   }
 
   const backHome = () => {
@@ -32,7 +32,7 @@ const Results = () => {
           <div className='mx-auto py-4'>
             <h1 className='mt-4'>
               <b className='text-2xl text-red-800'>Congratulations</b>, 
-              you have completed the quiz and {text} of {nameQuiz}.
+              you have completed the quiz {text} of {nameQuiz}.
             </h1>
           </div>
           <div className='mx-auto py-20'>
