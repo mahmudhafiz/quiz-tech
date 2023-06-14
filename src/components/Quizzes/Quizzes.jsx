@@ -46,7 +46,7 @@ function Quizzes() {
 
   return (
     <div className='flex justify-center'>
-        <div className='w-[1250px] h-[75vh] bg-white'>
+        <div className='w-[1250px] h-[75vh] bg-[#fdf0d5]'>
           <div className='p-12'>
             <h1 className='font-bold text-2xl my-4 text-purple-600'>Select the correct answers from below...</h1>
             <h3 className='font-bold text-xl py-4 mt-4'>
@@ -54,25 +54,25 @@ function Quizzes() {
             </h3>
             <div className='grid grid-cols-2 grid-row-2 gap-x-24 gap-y-12 p-10 text-lg'>
                 <button onClick={checkCorrectAns} id='1' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-gray-300'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
                     {questions[counter]?.options[0]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='2' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-gray-300'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
                     {questions[counter]?.options[1]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='3' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-gray-300'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
                     {questions[counter]?.options[2]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='4' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-gray-300'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
                     {questions[counter]?.options[3]}
                   </div>
                 </button>

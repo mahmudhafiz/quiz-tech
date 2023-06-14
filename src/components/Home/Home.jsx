@@ -14,10 +14,10 @@ function Home() {
   return (
     <div>
         <div className='max-w-[1250px] w-full flex flex-col justify-between align-middle my-2 p-2 mx-auto text-center mb-2'>
-            <h3 className='text-3xl font-bold max-w-[600px] mx-auto text-fuchsia-700'>
+            <h3 className='text-3xl font-bold max-w-[600px] mx-auto text-[#e63946]'>
                 Take the quizzes and master the technology which you hate!
             </h3>
-            <p className='max-w-[800px] my-10 mx-auto p-3'>
+            <p className='max-w-[800px] my-10 mx-auto p-3 text-white'>
             A quiz refers to a short test of knowledge, typically around 10 questions 
             in length, with question formats often including multiple choice, fill in the 
             blanks, true or false and short answer. Professors who employ quizzes 
