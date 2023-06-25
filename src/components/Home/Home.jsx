@@ -14,16 +14,19 @@ function Home() {
   return (
     <div>
         <div className='max-w-[1250px] w-full flex flex-col justify-between align-middle my-2 p-2 mx-auto text-center mb-2'>
-            <h3 className='text-4xl font-bold max-w-[650px] mx-auto text-[#000d5f]'>
+            <h3 className='text-4xl font-bold max-w-[650px] mx-auto text-[#008195]'>
                 Take the quiz and master the technology which you hate!
             </h3>
-            <p className='max-w-[800px] my-10 mx-auto p-3 text-black text-lg font-bold'>
-            A quiz refers to a short test of knowledge, typically around 10 questions 
-            in length, with question formats often including multiple choice, fill in the 
-            blanks, true or false and short answer. Professors who employ quizzes 
-            in their courses—a practice which is increasingly viable thanks to the broader use of 
-            technology in higher ed—may schedule them in each class 
-            to ensure students have retained knowledge from the previous lesson. 
+            <p className='max-w-[900px] my-10 mx-auto p-3 text-black text-lg font-bold'>
+            Technology quizzes are an exciting way to test and expand knowledge in the e
+            ver-evolving tech world. These quizzes cover a range of topics like programmi
+            ng, version control, and etc. They encourage learning, problem-solving, and stayi
+            ng updated on advancements. Quizzes are useful in academic and professional setti
+            ngs for assessing knowledge and promoting growth. They can also be social activiti
+            es, fostering collaboration and camaraderie. Technology quizzes offer an engaging p
+            latform to challenge oneself, discover new interests, and connect with others who s
+            hare a passion for technology. Embrace the adventure, test your tech expertise, 
+            and explore the vast world of technology through quizzes!
             </p>
             {
               <div className='grid grid-cols-4 gap-4'>

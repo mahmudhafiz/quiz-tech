@@ -46,39 +46,39 @@ function Quizzes() {
 
   return (
     <div className='flex justify-center'>
-        <div className='w-[1250px] h-[75vh] bg-[#fdf0d5]'>
+        <div className='w-[1250px] h-[75vh] bg-[#22577a] text-white'>
           <div className='p-12'>
-            <h1 className='font-bold text-2xl my-4 text-purple-600'>Select the correct answers from below...</h1>
-            <h3 className='font-bold text-xl py-4 mt-4'>
+            <h1 className='font-bold text-2xl my-4 text-[#f0f3bd]'>Select the correct answers from below...</h1>
+            <h3 className='font-bold text-2xl py-4 mt-4'>
               Q.{' '}{questions[counter]?.question.slice(3, -4)}
             </h3>
-            <div className='grid grid-cols-2 grid-row-2 gap-x-24 gap-y-12 p-10 text-lg'>
+            <div className='grid grid-cols-2 grid-row-2 gap-x-24 gap-y-12 p-10 text-xl'>
                 <button onClick={checkCorrectAns} id='1' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 bg-white text-[#22577a] text-center hover:bg-[#c7f9cc]'>
                     {questions[counter]?.options[0]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='2' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 bg-white text-[#22577a] text-center hover:bg-[#c7f9cc]'>
                     {questions[counter]?.options[1]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='3' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 bg-white text-[#22577a] text-center hover:bg-[#c7f9cc]'>
                     {questions[counter]?.options[2]}
                   </div>
                 </button>
 
                 <button onClick={checkCorrectAns} id='4' className=''>
-                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 text-center hover:bg-[#38b000]'>
+                  <div className='h-[80px] border-2 rounded-xl w-[500px] p-2 bg-white text-[#22577a] text-center hover:bg-[#c7f9cc]'>
                     {questions[counter]?.options[3]}
                   </div>
                 </button>
             </div>
             <div className='text-center'>
-              <h2 className='text-xl text-cyan-700'>
+              <h2 className='text-xl text-[#ebedd1]'>
                 {counter + 1} out of {total}
               </h2>
             </div>
@@ -91,10 +91,10 @@ function Quizzes() {
               }
               {
                 !endQ && 
-                <button type="button" onClick={nextQ} class="text-blue-700 border border-blue-700
+                <button type="button" onClick={nextQ} class="text-blue-700 border border-white
                  hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 
-                font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-blue-500
-                dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500">
+                font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-white
+                dark:text-white dark:hover:text-[#22577a] dark:focus:ring-blue-800 dark:hover:bg-[#c7f9cc]">
                   <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd">
                       </path></svg>
