@@ -22,6 +22,9 @@ function Navbar() {
                 <button>
                   <li className='p-4'>About</li>
                 </button>
+                <button>
+                  <li className='p-4'>Login</li>
+                </button>
             </ul>
         </div>
     </div>

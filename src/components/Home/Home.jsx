@@ -17,16 +17,13 @@ function Home() {
             <h3 className='text-4xl font-bold max-w-[650px] mx-auto text-[#008195]'>
                 Take the quiz and master the technology which you hate!
             </h3>
-            <p className='max-w-[900px] my-10 mx-auto p-3 text-black text-lg font-bold'>
-            Technology quizzes are an exciting way to test and expand knowledge in the e
-            ver-evolving tech world. These quizzes cover a range of topics like programmi
-            ng, version control, and etc. They encourage learning, problem-solving, and stayi
-            ng updated on advancements. Quizzes are useful in academic and professional setti
-            ngs for assessing knowledge and promoting growth. They can also be social activiti
-            es, fostering collaboration and camaraderie. Technology quizzes offer an engaging p
-            latform to challenge oneself, discover new interests, and connect with others who s
-            hare a passion for technology. Embrace the adventure, test your tech expertise, 
-            and explore the vast world of technology through quizzes!
+            <p className='max-w-[900px] my-10 mx-auto p-3 text-black text-lg'>
+              Technology quizzes are an engaging way to expand knowledge and stay updated in 
+              the ever-evolving tech world. They cover various topics, including programming 
+              and version control, promoting learning and problem-solving. Quizzes are beneficial 
+              for assessing knowledge, fostering growth in academic and professional settings, and 
+              encouraging collaboration. Technology quizzes provide an exciting adventure to 
+              test your tech expertise and dive into the vast world of technology.
             </p>
             {
               <div className='grid grid-cols-4 gap-4'>
