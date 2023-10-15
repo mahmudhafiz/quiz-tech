@@ -46,7 +46,7 @@ function Quizzes() {
 
   return (
     <div className='flex justify-center'>
-        <div className='w-[1250px] h-[75vh] bg-[#22577a] text-white'>
+        <div className='w-[1250px] h-[75vh] bg-[#13517a] text-white'>
           <div className='p-12'>
             <h1 className='font-bold text-2xl my-4 text-[#f0f3bd]'>Select the correct answers from below...</h1>
             <h3 className='font-bold text-2xl py-4 mt-4'>
